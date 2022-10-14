@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Tugas 1 Praktikum Pemrograman Web</title>
+        <style>
+            table, th, td {
+              border: 1px solid black;
+            }
+            </style>
+    </head>
+    <body>
+        <h1 align="center">Christian | 120140056</h1>
+        <hr>
+        <p style="text-align:center;"><img src="image1.jpg" width="150" height="220"></p>
+        <hr>
+        <fieldset>
+          <legend>Lompat ke bagian penting</legend>
+          <ul>
+              <li><a href="ts">Tentang Saya</a></li>
+              <li><a href="pk">Pengalaman</a></li>
+              <li><a href="hs">Hubungi Saya</a></li>
+          </ul>
+        </fieldset>
+        <center>
+          <p>Selamat Menikmati Musiknya!</p>
+          <iframe width="420" height="315" src="https://youtube.com/embed/NUYvbT6vTPs?autoplay=1&loop=0&autopause=0" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </center>
+        <hr>
+        <fieldset>
+          <legend><h3 id="ts">Tentang Saya</h3></legend>
+          <p>Perkenalkan nama saya Christian dengan NIM 120140056, seorang mahasiswa program studi Teknik Informatika Institut Teknologi Sumatera (ITERA). Saya tertarik pada perkembangan dunia game dan juga memainkannya, jadi jika anda punya ketertarikan yang sama dengan saya maka silahkan menghubungi saya melalui bagian "hubungi saya" dibagian bawah. Senang berkenalan dengan anda!</p>
+        </fieldset>
+        <fieldset>
+          <legend><h3 id="pk">Pengalaman</h3></legend>
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Posisi</th>
+                <th rowspan="2">Tempat</th>
+                <th colspan="2">waktu</th>
+              </tr>
+              <tr>
+                <th>Mulai</th>
+                <th>Selesai</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>SD</td>
+                <td>SD Negeri Kamal 02</td>
+                <td>2008</td>
+                <td>2014</td>
+              </tr>
+              <tr>
+                <td>SMP</td>
+                <td>SMP Negeri 224 Jakarta</td>
+                <td>2014</td>
+                <td>2017</td>
+              </tr>
+              <tr>
+                <td>SMA</td>
+                <td>SMA Negeri 95 Jakarta</td>
+                <td>2017</td>
+                <td>2020</td>
+              </tr>
+              <tr>
+                <td class="tg-nrix">Guru Bimbel</td>
+                <td class="tg-nrix">Bimbel SKY Citra</td>
+                <td class="tg-nrix">2019</td>
+                <td class="tg-nrix">2020</td>
+              </tr>
+              <tr>
+                <td>S1</td>
+                <td>Institut Teknologi Sumatera</td>
+                <td>2020</td>
+                <td>*sekarang</td>
+              </tr>
+            </tbody>
+            </table>
+        </fieldset>
+        <fieldset>
+          <legend><h3 id="hs">Hubungi Saya</h3></legend>
+          <form>
+              <p>
+                Kontak saya melalui :<br>
+                &emsp;WhatsApp : <a href="+6281284345083">0812 8434 5083</a><br>
+                &emsp;E-mail : <a href="christian.120140056@student.itera.ac.id">christian.120140056@student.itera.ac.id</a><br>
+                &emsp;Line : @christianruslim9902<br>
+                &emsp;Instagram : @christian._.829
+              </p>
+              <p>atau bisa dengan memberikan pesan langsung melalui kotak form di bawah ini</p>
+              <label>Nama: </label><input type="text" id="name" name="name"><br>
+              <label>E-Mail: </label><input type="text" id="mail" name="mail"><br>
+              <label>No. WhatsApp: </label><input type="text" id="nomor" name="nomor">
+              <p>Urgensi Pesan</p>
+              <input type="radio" id="pil" name="cepat" value="cepat">
+              <label for="cepat">Balas Secepatnya</label><br>
+              <input type="radio" id="pil" name="normal" value="normal">
+              <label for="normal">Balas Saat Luang</label><br>
+              <input type="radio" id="pil" name="no" value="no">
+              <label for="no">Tidak Perlu Balas</label><br>
+              <p>Tulis Pesan:</p>
+              <textarea name="message" rows="10" cols="30"></textarea>
+              <br><input type="submit" value="Kirim Pesan">
+          </form>
+        </fieldset>
+    </body>
+</html>
